@@ -1,0 +1,100 @@
+body {
+  --bc-orange: #f56b2a;
+  --bc-blue: #3d6abe;
+  --bc-black: #1a1a1a;
+  --bc-bg: #fafafa;
+  --bc-white: #ffffff;
+  --bc-empty-pic: #cad1d9;
+  --bc-grey: #666666;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 60px;
+  border: 1px solid lightgrey;
+  background-color: var(--bc-white);
+}
+
+.sign-up > div {
+  flex: 1;
+}
+
+.sign-up h2 {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.sign-up .create {
+  border-bottom: 2px solid var(--bc-orange);
+}
+
+.sign-up button {
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color: var(--bc-blue);
+  border-radius: 5px;
+  color: var(--bc-white);
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.sign-up form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sign-up input {
+  margin-bottom: 20px;
+}
+
+.sign-up .username input,
+.sign-up .email input {
+  width: 520px;
+}
+
+.sign-up .password input {
+  width: 250px;
+}
+
+.sign-up .green {
+  border: 2px solid green;
+}
+
+.sign-up .why {
+  display: flex;
+  align-items: center;
+  margin: 0 30px 30px 0;
+}
+
+.sign-up i {
+  padding: 0 30px;
+  color: var(--bc-blue);
+  font-size: 40px;
+}
+
+.sign-up .fa-eye {
+  font-size: 30px;
+}
+
+.sign-up .why-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.sign-up .why-content {
+  font-size: 12px;
+}
+
+.sign-up .input-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

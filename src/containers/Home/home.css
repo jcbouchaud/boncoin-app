@@ -1,0 +1,70 @@
+body {
+  --bc-orange: #f56b2a;
+  --bc-blue: #3d6abe;
+  --bc-black: #1a1a1a;
+  --bc-bg: #fafafa;
+  --bc-white: #ffffff;
+  --bc-empty-pic: #cad1d9;
+}
+
+.home .thumbnail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.home .main-picture {
+  height: 120px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bc-empty-pic);
+  color: var(--bc-orange);
+  font-size: 40px;
+  overflow: hidden;
+}
+
+.home .main-picture > img {
+  height: 100%;
+}
+
+.home .content {
+  background-color: var(--bc-white);
+  padding: 20px;
+  flex: 1;
+}
+
+.home .title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home .price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: var(--bc-orange);
+}
+
+.pagination {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.pagination a,
+.pagination a:visited {
+  padding: 5px 8px;
+  color: var(--bc-blue);
+  font-size: 12px;
+}
+
+.pagination a:hover,
+.pagination a:active {
+  background-color: var(--bc-orange);
+  color: var(--bc-white);
+  border-radius: 3px;
+}

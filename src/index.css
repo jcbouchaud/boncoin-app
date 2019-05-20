@@ -1,13 +1,61 @@
+@import "./components/Header/header.css";
+@import "./containers/Home/home.css";
+@import "./containers/Item/item.css";
+@import "./containers/SignUp/signup.css";
+@import "./containers/SignIn/signin.css";
+@import "./containers/Post/post.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  --bc-orange: #f56b2a;
+  --bc-blue: #3d6abe;
+  --bc-black: #1a1a1a;
+  --bc-bg: #fafafa;
+  --bc-white: #ffffff;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: var(--bc-bg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+section {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--bc-black);
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }

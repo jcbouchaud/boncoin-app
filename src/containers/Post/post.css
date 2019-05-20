@@ -1,0 +1,90 @@
+body {
+  --bc-orange: #f56b2a;
+  --bc-blue: #3d6abe;
+  --bc-black: #1a1a1a;
+  --bc-bg: #fafafa;
+  --bc-white: #ffffff;
+  --bc-empty-pic: #cad1d9;
+  --bc-grey: #666666;
+}
+
+.post .top-banner {
+  padding: 10px 8px;
+  background-color: var(--bc-grey);
+  color: var(--bc-white);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.post .content {
+  padding: 10px 8px;
+  border: 1px solid lightgrey;
+  color: var(--bc-grey);
+  background-color: var(--bc-white);
+}
+
+.post h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bc-black);
+}
+
+.post input,
+.post textarea {
+  margin: 10px 0 30px 0;
+  height: 20px;
+  width: 590px;
+}
+
+.post button {
+  margin: 10px 0;
+  padding: 10px 60px;
+  background-color: var(--bc-blue);
+  border-radius: 5px;
+  color: var(--bc-white);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.post .description {
+  height: 200px;
+}
+
+.post .add-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 0.5px solid var(--bc-grey);
+  margin-right: 10px;
+}
+
+.post .pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 0.5px solid var(--bc-grey);
+  overflow: hidden;
+  object-fit: contain;
+  margin: 0 10px 10px 0;
+}
+
+.post .pic > img {
+  height: 100%;
+}
+
+.post .fa-camera {
+  font-size: 50px;
+  color: var(--bc-black);
+}
+.post .images {
+  display: flex;
+  flex-wrap: wrap;
+}
